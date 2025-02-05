@@ -25,7 +25,7 @@ def load_messages():
 
 keybinds = load_keybinds()
 messages = load_messages()
-typing_speed = 0.001  # Default delay in seconds
+typing_speed = 0.001
 
 def send_message(text):
     pyautogui.write(text, interval=typing_speed)
@@ -61,8 +61,9 @@ def update_speed(val):
     typing_speed = float(val)
 
 root = tk.Tk()
-root.title("Message Keybinder")
+root.title("Message Keybinder by ThatSINEWAVE")
 root.geometry("400x600")
+root.resizable(False, False)  # Disable both horizontal and vertical resizing
 root.configure(bg="#333")
 
 title_label = tk.Label(root, text="Message Keybinder", font=("Arial", 14, "bold"), fg="white", bg="#333")
