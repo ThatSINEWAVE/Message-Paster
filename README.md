@@ -83,7 +83,7 @@ You can edit `messages.json` to change the predefined messages and `keybinds.jso
 
 <div align="center">
 
-## [Join my discord server](https://discord.gg/2nHHHBWNDw)
+## [Join my discord server](https://thatsinewave.github.io/Discord-Redirect/)
 
 </div>
 
